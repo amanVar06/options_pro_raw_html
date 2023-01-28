@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+    <title>Layout</title>
+  </head>
+  <body>
+
+    <nav class="navbar">
+      <div>
+        <p>Welcome,</p>
+        <p>Aman Varshney!</p>
+      </div>
+
+      <div class="toggler">
+        <div class="toggler_circle_container">
+          <div class="toggle_circle"></div>
+        </div>
+      </div>
+
+      <div class="img__container">
+        <img src="./images/opt_pro.png" alt="logo" />
+      </div>
+    </nav>
+
+    <main class="app__container">
+
+      <section class="chart__component">
+        <div class="section__header">
+          <p>
+            See Your <br />
+            Favorite Stocks
+          </p>
+          <div class="dropdown__container">
+            <select name="companies" id="companies" class="dropdown__menu">
+              <option value="Nifty">Nifty</option>
+              <option value="HDFC">HDFC</option>
+              <option value="TCS">TCS</option>
+              <option value="Infosys">Infosys</option>
+            </select>
+          </div>
+        </div>
+        <div class="graph_container">
+          <img class="graph" src="./images/graph.png" alt="graph" />
+        </div>
+      </section>
+
+      <section class="features__component">
+
+        <div>
+          <p>Features</p>
+        </div>
+
+        <div class="features__container">
+
+          <div class="feature__box">
+            <img src="./images/monitors.png" alt="candlestick-chart" />
+            <span>Backtest Strategy</span>
+          </div>
+
+          <div class="feature__box">
+            <img src="./images/idea.png" alt="candlestick-chart" />
+            <span>Derivative Analytics</span>
+          </div>
+
+          <div class="feature__box">
+            <img src="./images/search.png" alt="candlestick-chart" />
+            <span>Futures Dashboard</span>
+          </div>
+
+          <div class="feature__box">
+            <img
+              src="./images/data-visualization.png"
+              alt="candlestick-chart"
+            />
+            <span>Options Dashboard</span>
+          </div>
+
+          <div class="feature__box">
+            <img src="./images/statistics.png" alt="candlestick-chart" />
+            <span>Futures Open Interest</span>
+          </div>
+
+          <div class="feature__box">
+            <img src="./images/candlestick-chart.png" alt="candlestick-chart" />
+            <span>Options Open Interest</span>
+          </div>
+
+        </div>
+        
+      </section>
+
+    </main>
+
+    <div class="feedback__image-container">
+      <img src="./images/feedback.png" alt="feedback" />
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
